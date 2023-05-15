@@ -1,0 +1,31 @@
+.row{
+  margin-left: 20px;
+  color: white;
+
+}
+
+.rowpost{
+    display: flex;  /*multi image row by row*/
+    padding:20px;   /* side scroll x*/
+    overflow-x: scroll;
+    overflow-y: hidden;   
+
+}
+
+.rowpost::-webkit-scrollbar{
+    display: none;
+}
+
+
+.post{
+   max-height: 250px;
+   margin-right: 10px;
+
+}
+
+.smallposter{
+  max-height: 150px;
+  margin-right: 20px;
+
+  
+}
